@@ -23,3 +23,76 @@
     font-family: "Young Serif";
     src: url('../fonts/youngserif/YoungSerif-Regular.otf');
 }
+
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $bodyFont;
+    color: $primary;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, blockquote {
+    font-family: $headingFont;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-bottom: 18px;
+}
+
+h5 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 0 0 24px 0;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 30px 0;
+    &.smallCopy {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+ul, li, a, input {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
