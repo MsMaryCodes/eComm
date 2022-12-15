@@ -1,0 +1,66 @@
+@import "./variables";
+
+.wrapper {
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+button, .shopBtn {
+    color: $primary;
+    background-color: transparent;
+    padding: 18px 36px;
+    border: 2px solid $primary;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover, &:focus {
+        background-color: $primary;
+        color: $solidWhite;
+    }
+    &.secondary {
+        background-color: transparent;
+        border-color: $solidWhite;
+        color: $solidWhite;
+        padding: 8px 12px;
+        &:hover,&:focus {
+            background-color: $solidWhite;
+            color: $primary;
+        }
+    }
+    &.menuIcon {
+        border: none;
+        padding: 0;
+        display: inherit;
+        &:hover, &:focus {
+            background-color: transparent;
+        }
+    }
+}
+
+.solid {
+    color: $solidWhite;
+    background-color: $primary;
+    padding: 18px 36px;
+    border: 2px solid $primary;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover,
+    &focus {
+        color: $primary;
+        background-color: $solidWhite;
+    }
+}

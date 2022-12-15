@@ -228,6 +228,8 @@ html {
 
 /* site fonts */
 /* site colours */
+/* site fonts */
+/* site colours */
 /* import Jakarta Sans font */
 @font-face {
   font-family: "Jakarta Sans";
@@ -316,4 +318,72 @@ a {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+/* site fonts */
+/* site colours */
+.wrapper {
+  width: 90%;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+button, .shopBtn {
+  color: #084b6d;
+  background-color: transparent;
+  padding: 18px 36px;
+  border: 2px solid #084b6d;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+button:hover, button:focus, .shopBtn:hover, .shopBtn:focus {
+  background-color: #084b6d;
+  color: #fff;
+}
+button.secondary, .shopBtn.secondary {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  padding: 8px 12px;
+}
+button.secondary:hover, button.secondary:focus, .shopBtn.secondary:hover, .shopBtn.secondary:focus {
+  background-color: #fff;
+  color: #084b6d;
+}
+button.menuIcon, .shopBtn.menuIcon {
+  border: none;
+  padding: 0;
+  display: inherit;
+}
+button.menuIcon:hover, button.menuIcon:focus, .shopBtn.menuIcon:hover, .shopBtn.menuIcon:focus {
+  background-color: transparent;
+}
+
+.solid {
+  color: #fff;
+  background-color: #084b6d;
+  padding: 18px 36px;
+  border: 2px solid #084b6d;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.solid:hover, .solidfocus {
+  color: #084b6d;
+  background-color: #fff;
 }
