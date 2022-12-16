@@ -228,8 +228,6 @@ html {
 
 /* site fonts */
 /* site colours */
-/* site fonts */
-/* site colours */
 /* import Jakarta Sans font */
 @font-face {
   font-family: "Jakarta Sans";
@@ -320,8 +318,6 @@ a {
   transition: 0.3s;
 }
 
-/* site fonts */
-/* site colours */
 .wrapper {
   width: 90%;
   max-width: 1260px;
@@ -334,7 +330,7 @@ img {
   height: auto;
 }
 
-button, .shopBtn {
+button {
   color: #084b6d;
   background-color: transparent;
   padding: 18px 36px;
@@ -347,26 +343,26 @@ button, .shopBtn {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-button:hover, button:focus, .shopBtn:hover, .shopBtn:focus {
+button:hover, button:focus {
   background-color: #084b6d;
   color: #fff;
 }
-button.secondary, .shopBtn.secondary {
+button.secondary {
   background-color: transparent;
   border-color: #fff;
   color: #fff;
   padding: 8px 12px;
 }
-button.secondary:hover, button.secondary:focus, .shopBtn.secondary:hover, .shopBtn.secondary:focus {
+button.secondary:hover, button.secondary:focus {
   background-color: #fff;
   color: #084b6d;
 }
-button.menuIcon, .shopBtn.menuIcon {
+button.menuIcon {
   border: none;
   padding: 0;
   display: inherit;
 }
-button.menuIcon:hover, button.menuIcon:focus, .shopBtn.menuIcon:hover, .shopBtn.menuIcon:focus {
+button.menuIcon:hover, button.menuIcon:focus {
   background-color: transparent;
 }
 
@@ -386,4 +382,95 @@ button.menuIcon:hover, button.menuIcon:focus, .shopBtn.menuIcon:hover, .shopBtn.
 .solid:hover, .solidfocus {
   color: #084b6d;
   background-color: #fff;
+}
+
+a.button {
+  color: #084b6d;
+  background: transparent;
+  padding: 18px 36px;
+  border: 2px solid #084b6d;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+a.button:hover, a.button:focus {
+  background-color: #084b6d;
+  color: #fff;
+}
+
+.skipLink {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #fff;
+  color: #084b6d;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+  left: -100%;
+}
+
+.skipLink:focus, .skipLink:active {
+  left: 0;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+}
+.navBar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.searchCart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.counter p {
+  background-color: #084b6d;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+.slideOutNav {
+  height: 100vh;
+  z-index: 20;
+  background-color: #084b6d;
+  color: #fff;
+  width: 100%;
+  max-width: 500px;
+  position: fixed;
+  top: 0;
+  padding: 35px;
+}
+
+.btnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  button: 10px 0 10px 20px;
 }

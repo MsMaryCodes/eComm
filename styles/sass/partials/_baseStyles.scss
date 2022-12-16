@@ -1,5 +1,3 @@
-@import "./variables";
-
 .wrapper {
     width: 90%;
     max-width: 1260px;
@@ -12,7 +10,7 @@ img {
     height: auto;
 }
 
-button, .shopBtn {
+button {
     color: $primary;
     background-color: transparent;
     padding: 18px 36px;
@@ -62,5 +60,23 @@ button, .shopBtn {
     &focus {
         color: $primary;
         background-color: $solidWhite;
+    }
+}
+
+a {
+    &.button {
+        color: $primary;
+        background: transparent;
+        padding: 18px 36px;
+        border: 2px solid $primary;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        text-align: center;
+        transition: 0.3s;
+        &:hover,&:focus {
+            background-color: $primary;
+            color: $solidWhite;
+        }
     }
 }

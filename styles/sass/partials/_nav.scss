@@ -1,0 +1,67 @@
+.skipLink {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: $solidWhite;
+    color: $primary;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    left: -100%;
+}
+
+.skipLink:focus, .skipLink:active {
+        left: 0;
+    }
+
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid rgba(8,75,109,0.08);
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+
+.searchCart {
+    display: flex;
+    gap: 15px;
+}
+
+.counter {
+    p {
+        background-color: $primary;
+        color: $solidWhite;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+    }
+}
+
+
+// slide out nav
+.slideOutNav {
+    height: 100vh;
+    z-index: 20;
+    background-color: $primary;
+    color: $solidWhite;
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    top: 0;
+    // left: -500px;
+    padding: 35px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+ 
+    button: 10px 0 10px 20px;
+}
