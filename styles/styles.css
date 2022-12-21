@@ -533,3 +533,26 @@ header .headerContent .contentContainer {
   width: 65%;
   margin: 0 auto;
 }
+
+.categories {
+  margin-bottom: 90px;
+}
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+.categoryGallery .items {
+  padding: 45px;
+  margin: 50px 25px 25px;
+  width: 40%;
+  border-radius: 10%;
+}

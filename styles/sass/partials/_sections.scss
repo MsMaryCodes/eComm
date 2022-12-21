@@ -1,0 +1,18 @@
+.categories {
+    margin-bottom: 90px;
+}
+
+.categoryGallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+
+    .items {
+        padding: 45px;
+        margin: 50px 25px 25px;
+        width: 40%;
+        border-radius: 10%;
+    }
+}
