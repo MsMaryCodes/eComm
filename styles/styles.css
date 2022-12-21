@@ -506,3 +506,30 @@ footer .footerNav a {
 footer .footerNav a:hover, footer .footerNav a:focus {
   color: white;
 }
+
+header {
+  background-color: #f8fbf3;
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerContent {
+  width: 55%;
+  color: #084b6d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .headerContent .contentContainer {
+  width: 65%;
+  margin: 0 auto;
+}
