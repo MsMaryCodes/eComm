@@ -1,0 +1,28 @@
+footer {
+    background-color: $primary;
+    color: $solidWhite;
+    padding: 90px 0 50px;
+
+    .footerFlex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footerNav {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+
+        a {
+            font-size: 0.8rem;
+            line-height: 1.5rem;
+            color: rgba($solidWhite, 0.5);
+
+            &:hover,
+            &:focus {
+                color: rgba($solidWhite, 1);
+            }
+        }
+    }
+}
+

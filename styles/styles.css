@@ -423,6 +423,7 @@ a.button:hover, a.button:focus {
   top: 0;
   z-index: 10;
   border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+  background-color: #fff;
 }
 .navBar .wrapper {
   display: -webkit-box;
@@ -462,6 +463,7 @@ a.button:hover, a.button:focus {
   max-width: 500px;
   position: fixed;
   top: 0;
+  left: -500px;
   padding: 35px;
 }
 
@@ -472,5 +474,35 @@ a.button:hover, a.button:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  button: 10px 0 10px 20px;
+}
+
+footer {
+  background-color: #084b6d;
+  color: #fff;
+  padding: 90px 0 50px;
+}
+footer .footerFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerNav a {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .footerNav a:hover, footer .footerNav a:focus {
+  color: white;
 }
