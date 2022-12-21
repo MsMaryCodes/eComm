@@ -551,8 +551,43 @@ header .headerContent .contentContainer {
   width: 100%;
 }
 .categoryGallery .items {
-  padding: 45px;
-  margin: 50px 25px 25px;
   width: 40%;
+}
+.categoryGallery .items a {
+  padding: 25px;
+  margin: 50px 25px 25px;
   border-radius: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.categoryGallery .items a img {
+  border-radius: 10%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.categoryGallery .items a:hover, .categoryGallery .items a:focus {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .item1 a {
+  background-color: #ffd698;
+}
+.categoryGallery .item2 a {
+  background-color: #f4fcff;
+}
+.categoryGallery .item3 a {
+  background-color: #f8fbf3;
+}
+.categoryGallery .item4 a {
+  background-color: #fff5f5;
 }
