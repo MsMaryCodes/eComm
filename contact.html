@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- our skip link -->
+    <a href="#mainContent" class="skipLink">Skip to the main content</a>
+    
+    <!-- nav section -->
+    <nav class="navBar">
+        <div class="wrapper">
+            <!-- Nav menu button -->
+            <button class="menuIcon">
+                <img src="./assets/menu-button.svg" alt="Button to open navigation" class="menuIcon">
+            </button>
+    
+            <!-- Home button/logo -->
+            <a href="./index.html" class="logo">
+                <h1>Toybox</h1>
+            </a>
+    
+            <!-- Search/cart/counter -->
+            <div class="searchCart">
+                <!-- search -->
+                <button class="menuIcon">
+                    <img src="./assets/search.svg" alt="Search Icon" class="searchIcon">
+                </button>
+                <!-- bag/cart -->
+                <a href="#" class="bag">
+                    <img src="./assets/shop-bag.svg" alt="Shopping bag icon" class="bagIcon">
+                </a>
+                <!-- counter -->
+                <div class="counter">
+                    <p class="smallCopy">0</p>
+                </div><!-- counter end -->
+            </div> <!-- .searchCart end-->
+        </div><!-- .wrapper end-->
+        <div class="slideOutNav">
+            <!-- Our menu close button -->
+            <div class="btnContainer">
+                <button>
+                    <img src="./assets/menu-close.svg" alt="Close button for our Slide out menu">
+                </button>
+            </div>
+            <!-- Our UL to hold our menu items -->
+            <ul class="mainMenu">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="contactHeader">
+        <div class="wrapper">
+            <h5>Contact</h5>
+            <h3>We're here to help</h3>
+            <p>Any other questions? Reach out at <a href="mailto:support@toybox.io">support@toybox.io</a></p>
+        </div>
+    </header>
+
+    <main class="contact" id="mainContent">
+        <div class="wrapper">
+            <form action="" class="contactForm" name="contactForm">
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" id="name" placeholder="Name">
+
+                <label for="surname" class="sr-only">Surname</label>
+                <input type="text" id="surname" placeholder="Surname">
+
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" id="email" placeholder="Email">
+
+                <label for="phone" class="sr-only">Phone</label>
+                <input type="tel" id="phone" placeholder="Phone">
+
+                <select name="reason" id="reason">
+                    <option value="initial" disabled selected>Reason for contacting</option>
+                    <option value="refund">Refund Request</option>
+                    <option value="status">Status Update</option>
+                    <option value="praise">Praise</option>
+                    <option value="complaint">General Concerns</option>
+                </select>
+
+                <label for="message" class="sr-only">Message for me</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message for me">
+                </textarea>
+
+                <fieldset>
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the Terms & Conditions</label>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="wrapper">
+            <div class="footerFlex">
+                <!-- item 1: logo -->
+                <a href="./index.html" class="logo">
+                    <h4>Toybox</h4>
+                </a>
+                <!-- item 2: footer menu -->
+                <nav class="footerNav">
+                    <!-- list 1: shop -->
+                    <ul class="footerShop">
+                        <li>
+                            <h5>Shop</h5>
+                        </li>
+                        <li><a href="#">Safari</a></li>
+                        <li><a href="#">Ocean</a></li>
+                        <li><a href="#">Dinos</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+    
+                    <!-- list 2: about -->
+                    <ul class="footerAbout">
+                        <li>
+                            <h5>About</h5>
+                        </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+    
+                    <!-- list 3: template -->
+                    <ul class="footerTemplate">
+                        <li>
+                            <h5>Template</h5>
+                        </li>
+                        <li><a href="#">Style Guide</a></li>
+                        <li><a href="#">Licenses</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+        </div>
+    
+    </footer>
+</body>
+</html>
