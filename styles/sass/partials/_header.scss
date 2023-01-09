@@ -21,3 +21,24 @@ header {
         }
     }
 }
+
+// Contact page header 
+.contactHeader {
+    background-color: $quaternary;
+    padding-top: 120px;
+    text-align: center;
+
+    .wrapper {
+        padding-bottom: 40px;
+    }
+}
+
+// Wave design
+.contactHeader::after {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/wave.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+}
