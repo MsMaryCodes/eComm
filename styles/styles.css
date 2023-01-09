@@ -401,6 +401,10 @@ a.button:hover, a.button:focus {
   color: #fff;
 }
 
+ul {
+  padding-left: 0;
+}
+
 .skipLink {
   font-size: 1rem;
   padding: 10px;
@@ -554,7 +558,7 @@ header .headerContent .contentContainer {
   width: 40%;
 }
 .categoryGallery .items a {
-  padding: 25px;
+  padding: 40px;
   margin: 50px 25px 25px;
   border-radius: 10%;
   display: -webkit-box;
@@ -627,6 +631,9 @@ header .headerContent .contentContainer {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .categoryGallery .items a {
+    padding: 25px;
+  }
 }
 @media (max-width: 800px) {
   header {
@@ -648,7 +655,26 @@ header .headerContent .contentContainer {
   }
 }
 @media (max-width: 500px) {
+  .navBar .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navBar .logo {
+    margin: 20px 0;
+  }
   h3 {
     font-size: 2.2rem;
+  }
+  .categoryGallery .items {
+    width: 100%;
+  }
+  .categoryGallery .items a {
+    padding: 30px;
+    margin: 40px 0 0;
   }
 }
