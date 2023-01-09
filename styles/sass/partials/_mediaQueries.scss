@@ -1,11 +1,33 @@
 @media (max-width: 1000px) {
-
+    header {
+        .headerImgContainer {
+            img {
+                height: 100vh;
+                object-fit: cover;
+            }
+        }
+    }
 }
 
 @media (max-width: 800px) {
-
+    header {
+        flex-direction: column;
+        .headerImgContainer {
+            width: 100%;
+            img {
+                max-height: 350px;
+                width: 100%;
+            }
+        }
+        .headerContent {
+            width: 100%;
+            padding: 40px 0;
+        }
+    }
 }
 
 @media (max-width: 500px) {
-    
+    h3 {
+        font-size: 2.2rem;
+    }
 }
