@@ -591,3 +591,32 @@ header .headerContent .contentContainer {
 .categoryGallery .item4 a {
   background-color: #fff5f5;
 }
+
+.play {
+  background-image: url("../assets/background-image.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.play .playContainer {
+  background-color: #fff;
+  border: 24px solid #f4fcff;
+  max-width: 650px;
+  padding: 70px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
